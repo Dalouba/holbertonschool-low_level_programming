@@ -18,7 +18,7 @@ int main(void)
 	if (n % 10 > 5)
 		printf("5 %d and is greater than %d", n, n % 10);
 	else if (n % 10 == 0)
-		printf(%d and is 0 %d", n, n % 10);
+		printf("%d and is 0 %d", n, n % 10);
 	else
 		printf("%d and is less than 6 and not %d", n, n % 10);
 	return (0);
