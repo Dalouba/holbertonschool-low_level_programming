@@ -1,15 +1,19 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphabet - program that prints _putchar, followed by a new line
  *
- * Return: Always 0.
+ *
  */
-void print_alphabet(void);
+
+void print_alphabet(void)
 {
-	    int i;
-	    for (i >= 97; i <= 122; i++)
-	    {
-		    print_alphabet ();
-		}
+
+	int i;
+
+	for (i = 97; i <= 122; i++)
+	{
+		_putchar(i);
+	}
+	_putchar('\n');
 }
