@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alpahbet_x10 - Prints 10 times the alphabet, in lowcase.
+ * print_alphabet_x10 - Prints 10 times the alphabet, in lowercase.
  *
  *
  */
